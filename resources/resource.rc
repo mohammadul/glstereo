@@ -1,0 +1,29 @@
+#ifndef GLSTEREO_RESOURCE_H_INCLUDED
+#define GLSTEREO_RESOURCE_H_INCLUDED
+
+
+1 VERSIONINFO
+FILEVERSION      1,0,0,0
+PRODUCTVERSION   1,0,0,0
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4" // Lang=US English, CharSet=Windows Multilingual
+        BEGIN
+            VALUE "Comments",         "OpenGL Stereo Library written in C\0"
+            VALUE "Developer",        "Sk. Mohammadul Haque\0"
+            VALUE "FileDescription",  "GLStereo\0"
+            VALUE "FileVersion",      "1.0.000\0"
+            VALUE "InternalName",     "glstereo.dll\0"
+            VALUE "LegalCopyright",   "Copyright (C) 2022 Sk. Mohammadul Haque\0"
+            VALUE "OriginalFilename", "glstereo.dll\0"
+            VALUE "ProductName",      "GLStereo\0"
+            VALUE "ProductVersion",   "1.0.000\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x809, 1252 // 1252 = 0x04E4
+    END
+END
+#endif

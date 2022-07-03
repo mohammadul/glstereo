@@ -1,0 +1,14 @@
+EXPORTS
+    __glstereo_set_frustum @1
+    glstereo_delete @2
+    glstereo_error @3
+    glstereo_left @4
+    glstereo_load_modelview @5
+    glstereo_mat4_disp @6
+    glstereo_mat4_inv @7
+    glstereo_mat4_mul @8
+    glstereo_mat4_transpose @9
+    glstereo_new @10
+    glstereo_right @11
+    glstereo_rot_vec3_to_mat4 @12
+    glstereo_set_modelview @13
