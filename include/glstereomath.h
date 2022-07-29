@@ -38,22 +38,61 @@
 #include <math.h>
 #include "glstereoerror.h"
 
-#define GLSTEREO_PI (3.14159265359)
+#define GLSTEREO_PI (3.14159265359) /**< \f$ \pi \f$ */
 
 
-typedef int vec3i[3];
-typedef int vec4i[4];
-typedef int mat3i[9];
-typedef int mat4i[16];
-typedef float vec3f[3];
-typedef float vec4f[4];
-typedef float mat3f[9];
-typedef float mat4f[16];
+typedef int vec3i[3]; /**< 3-integer vector */
+typedef int vec4i[4]; /**< 4-integer vector */
+typedef int mat3i[9]; /**< 3x3-integer matrix */
+typedef int mat4i[16]; /**< 4x4-integer matrix */
+typedef float vec3f[3]; /**< 3-float vector */
+typedef float vec4f[4]; /**< 4-float vector */
+typedef float mat3f[9]; /**< 3x3-float matrix */
+typedef float mat4f[16]; /**< 4x4-float matrix */
+
+/** \brief Computes matrix-multiplication given two matrices
+ *
+ * \param[in] a First given matrix
+ * \param[in] b Second given matrix
+ * \param[out] c Output result matrix
+ *
+ */
 
 void glstereo_mat4_mul(mat4f a, mat4f b, mat4f c);
+
+/** \brief Computes in-place matrix-transposition given a matrix
+ *
+ * \param[in] a Given matrix
+ *
+ */
+
 void glstereo_mat4_transpose(mat4f a);
+
+/** \brief Displays a given matrix
+ *
+ * \param[in] a Given matrix
+ *
+ */
+
 void glstereo_mat4_disp(mat4f a);
+
+/** \brief Computes matrix-inverse given a matrix
+ *
+ * \param[in] a Given matrix
+ * \param[out] b Output inverse matrix
+ *
+ */
+
 void glstereo_mat4_inv(mat4f a, mat4f b);
+
+/** \brief Computes matrix-representation given a rotation axis and a magnitude in degrees
+ *
+ * \param[out] r Output transformation matrix
+ * \param[in] axis Given rotation axis
+ * \param[in] ang Given rotation angle in degrees
+ *
+ */
+
 void glstereo_rot_vec3_to_mat4(mat4f r, vec3f axis, float ang);
 
 #endif

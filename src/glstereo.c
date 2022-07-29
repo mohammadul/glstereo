@@ -119,7 +119,7 @@ void glstereo_delete(GLSTEREOVIEW sv)
 }
 
 
-void __glstereo_set_frustum(mat4f fst, float left, float right, float top, float bottom, float nplane, float fplane)
+void glstereo_set_frustum(mat4f fst, float left, float right, float top, float bottom, float nplane, float fplane)
 {
     fst[0] = 2.0*nplane/(right-left);
     fst[1] = 0.0f;

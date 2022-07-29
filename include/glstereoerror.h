@@ -42,6 +42,11 @@
 #define GLSTEREO_ERROR_TYPE 2
 #define GLSTEREO_ERROR_UNKNOWN 3
 
+/** \brief Generates an error
+ *
+ * \param[in] type error type (GLSTEREO_ERROR_MALLOC/GLSTEREO_ERROR_MATH/GLSTEREO_ERROR_TYPE/GLSTEREO_ERROR_UNKNOWN)
+ *
+ */
 
 void glstereo_error(int type);
 
