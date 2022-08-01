@@ -1,4 +1,4 @@
-# GLStereo  
+# GLStereo  [![DOI](https://zenodo.org/badge/510033555.svg)](https://zenodo.org/badge/latestdoi/510033555)
 
 OpenGL Stereo Library written in C.
 
