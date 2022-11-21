@@ -1,4 +1,6 @@
-# GLStereo  [![DOI](https://zenodo.org/badge/510033555.svg)](https://zenodo.org/badge/latestdoi/510033555)
+# GLStereo  [![DOI](https://zenodo.org/badge/510033555.svg)](https://zenodo.org/badge/latestdoi/510033555) [![Build Status][c_cpp_status]][c_cpp_link]
+[c_cpp_status]: https://github.com/mohammadul/glstereo/actions/workflows/c-cpp.yml/badge.svg
+[c_cpp_link]: https://github.com/mohammadul/glstereo/actions/workflows/c-cpp.yml
 
 OpenGL Stereo Library written in C.
 
@@ -7,7 +9,7 @@ OpenGL Stereo Library written in C.
 
 ## Build   
 
-To build the whole project, either Code::Blocks is required.
+To build the whole project, either Code::Blocks or Make is required.
 
 ## Author   
 

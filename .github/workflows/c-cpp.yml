@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - name: premake
+      run: sudo apt install mesa-common-dev libglu1-mesa-dev
     - name: make
       run: make -f glstereo.cbp.mak
 
