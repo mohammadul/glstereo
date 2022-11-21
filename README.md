@@ -2,6 +2,9 @@
 
 OpenGL Stereo Library written in C.
 
+![Mono](samples/mono.png)
+![Stereo](samples/stereo.png)
+
 ## Build   
 
 To build the whole project, either Code::Blocks is required.
